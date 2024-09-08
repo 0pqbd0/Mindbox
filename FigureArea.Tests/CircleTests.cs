@@ -25,7 +25,7 @@ public class CircleTests
     public void CreateCircleTestWithIncorectRadius()
     {
         var ex = Assert.ThrowsException<ArgumentException>(() => new Circle(-5));
-        Assert.AreEqual(ex.Message, "Радиус должен быть положительным!");
+        Assert.AreEqual(ex.Message, "Р Р°РґРёСѓСЃ РґРѕР»Р¶РµРЅ Р±С‹С‚СЊ РїРѕР»РѕР¶РёС‚РµР»СЊРЅС‹Рј!");
     }
 
 }
