@@ -31,7 +31,7 @@ public class Triangle : IFigure
     }
 
     /// <summary>
-    /// Проыерка является ли треугольник прямоугольным
+    /// Проверка является ли треугольник прямоугольным
     /// </summary>
     /// <returns></returns>
     public bool IsRightTriangle()
